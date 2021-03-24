@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Monster Squad</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="headerText">
+          <h1>Monster Squad</h1>
+          <h2>Find D&D Monsters by Challenge Rating</h2>
+          <div class = "selector" id="selector">
+            <label id="selectLabel" for="SelectChallengeRating"
+              >Select Challenge Rating:</label
+            >
+            <select name="SelectChallengeRating" id="SelectChallengeRating">
+              <option value="0">0</option>
+              <option value="0.125">1/8</option>
+              <option value="0.25">1/4</option>
+              <option value="0.5">1/2</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="30">30</option>
+            </select>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="monsterContainer">
+          <!-- DYNAMIC CONTENT -->
+        </div>
+      </main>
+      <footer>
+        <div class="footerText">
+          <p>
+            Powered by the
+            <a href="http://www.dnd5eapi.co/">D&D 5e API</a>
+          </p>
+          <p>
+            Art courtesy of
+            <a href="https://www.behance.net/lineartestpilot">lineartestpilot</a>
+          </p>
+          <p>
+            Made by Beatrice Duncan at
+            <a href="https://junocollege.com/">Juno College</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
